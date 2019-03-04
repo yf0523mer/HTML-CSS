@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.clearfix::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.mainvisual1 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box1.jpg)
+}
+.mainvisual2 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box2.jpg)
+}
+.mainvisual3 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box3.jpg)
+}
+.mainvisual4 {
+	width: 100%;
+	height: 200px;
+	background-image: url(img/box4.jpg)
+}
